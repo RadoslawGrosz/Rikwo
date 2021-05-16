@@ -1,2 +1,0 @@
-# Rikwo
-Android app

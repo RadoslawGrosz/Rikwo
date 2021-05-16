@@ -1,4 +1,4 @@
-package com.example.transormacjeafiniczne;
+package com.tomasz.animacja;
 
 import org.junit.Test;
 
