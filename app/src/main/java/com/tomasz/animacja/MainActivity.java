@@ -45,4 +45,12 @@ public class MainActivity extends AppCompatActivity {
         iv.startAnimation(a);
     }
 
+
+    public void stosujWszystkie(View v){
+        Animation a = AnimationUtils.loadAnimation(this, R.anim.wszystko);
+        ImageView iv = (ImageView)findViewById(R.id.imageView);
+        iv.startAnimation(a);
+    }
+
+
 }
