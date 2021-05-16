@@ -17,5 +17,11 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+	
+	public void skaluj(View v) {
+		Animation a = AnimationUtils.loadAnimation(this, R.anim.skala);
+		ImageView iv = (ImageView)findViewById(R.id.imageView);
+		iv.startAnimation(a);
+	}
 
 }
