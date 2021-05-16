@@ -24,4 +24,10 @@ public class MainActivity extends AppCompatActivity {
 		iv.startAnimation(a);
 	}
 
-}
+    public void przesuwaj(View v){
+        Animation a = AnimationUtils.loadAnimation(this, R.anim.przesuw);
+        ImageView iv = (ImageView)findViewById(R.id.imageView);
+        iv.startAnimation(a);
+
+
+    }
